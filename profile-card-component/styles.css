@@ -1,0 +1,479 @@
+body, div, p, h1, img{
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+@media (max-width : 350px){
+  body{
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+  }
+  
+  .bg-img-top{
+    position: fixed;
+    top: -580px;
+    left: -800px;
+  }
+  
+  .bg-img-bottom{
+    position: fixed;
+    bottom: -600px;
+    right: -800px;
+  }
+  
+  .bg-pattern-top,
+  .bg-pattern-bottom{
+    width: 100%;
+  }
+  
+  section{
+    width: 18rem;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px hsl(185, 75%, 39%);
+  }
+  
+  .profile-img{
+    position: absolute;
+    width: 70px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 4px 4px 75px 4px;
+    top: 23%;
+    right: 50%;
+    left: 35%;
+    bottom: 50%;
+  }
+  
+  .profile{
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  .card-bg-img{
+    width: 100%;
+  }
+  
+  .card-bg{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .about-section{
+    padding-top: 50px;
+  }
+  
+  .about{
+    text-align: center;
+    padding-bottom: 23px;
+  }
+  
+  .detail{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .name{
+    margin-right: 8px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+  }
+  
+  .age{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  
+  .city{
+    margin-top: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  
+  .socials{
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    border-color: hsl(0, 0%, 59%);
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .fans{
+    color: hsl(229, 23%, 23%)
+    ;
+    font-weight: 700;
+  }
+  
+  .fan-description{
+    margin-top: 6px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    
+  }
+}
+
+@media (min-width: 351px) and (max-width : 750px){
+  body{
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40%;
+  }
+  
+  .bg-img-top{
+    position: fixed;
+    top: -590px;
+    left: -700px;
+  }
+  
+  .bg-img-bottom{
+    position: fixed;
+    bottom: -500px;
+    right: -700px;
+  }
+  
+  .bg-pattern-top,
+  .bg-pattern-bottom{
+    width: 100%;
+  }
+  
+  section{
+    width: 18rem;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px hsl(185, 75%, 39%);
+  }
+  
+  .profile-img{
+    position: absolute;
+    width: 70px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 4px 4px 75px 4px;
+    top: 23%;
+    right: 50%;
+    left: 35%;
+    bottom: 50%;
+  }
+  
+  .profile{
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  .card-bg-img{
+    width: 100%;
+  }
+  
+  .card-bg{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .about-section{
+    padding-top: 50px;
+  }
+  
+  .about{
+    text-align: center;
+    padding-bottom: 23px;
+  }
+  
+  .detail{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .name{
+    margin-right: 8px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+  }
+  
+  .age{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  
+  .city{
+    margin-top: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  
+  .socials{
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    border-color: hsl(0, 0%, 59%);
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .fans{
+    color: hsl(229, 23%, 23%)
+    ;
+    font-weight: 700;
+  }
+  
+  .fan-description{
+    margin-top: 6px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 751px) and (max-width : 900px){
+  body{
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35%;
+    padding-left: 4%;
+  }
+  
+  .bg-img-top{
+    position: fixed;
+    top: -490px;
+    left: -600px;
+  }
+  
+  .bg-img-bottom{
+    position: fixed;
+    bottom: -340px;
+    right: -600px;
+  }
+  
+  .bg-pattern-top,
+  .bg-pattern-bottom{
+    width: 100%;
+  }
+  
+  section{
+    max-width: 25rem;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px hsl(185, 75%, 39%);
+  }
+  
+  .profile-img{
+    position: absolute;
+    width: 70px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 4px 4px 75px 4px;
+    top: 33%;
+    right: 50%;
+    left: 40%;
+    bottom: 50%;
+  }
+  
+  .profile{
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  .card-bg-img{
+    width: 100%;
+  }
+  
+  .card-bg{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .about-section{
+    padding-top: 50px;
+  }
+  
+  .about{
+    text-align: center;
+    padding-bottom: 23px;
+  }
+  
+  .detail{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .name{
+    margin-right: 8px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+  }
+  
+  .age{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  
+  .city{
+    margin-top: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  
+  .socials{
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    border-color: hsl(0, 0%, 59%);
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .fans{
+    color: hsl(229, 23%, 23%)
+    ;
+    font-weight: 700;
+  }
+  
+  .fan-description{
+    margin-top: 6px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 900px) and (max-width : 1440px){
+  body{
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12%;
+    padding-left: 4%;
+  }
+  
+  .bg-img-top{
+    position: fixed;
+    top: -490px;
+    left: -300px;
+  }
+  
+  .bg-img-bottom{
+    position: fixed;
+    bottom: -640px;
+    right: -300px;
+  }
+  
+  .bg-pattern-top,
+  .bg-pattern-bottom{
+    width: 100%;
+  }
+  
+  section{
+    max-width: 25rem;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px hsl(185, 75%, 39%);
+  }
+  
+  .profile-img{
+    position: absolute;
+    width: 70px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 4px 4px 75px 4px;
+    top: 33%;
+    right: 50%;
+    left: 40%;
+    bottom: 50%;
+  }
+  
+  .profile{
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  .card-bg-img{
+    width: 100%;
+  }
+  
+  .card-bg{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .about-section{
+    padding-top: 50px;
+  }
+  
+  .about{
+    text-align: center;
+    padding-bottom: 23px;
+  }
+  
+  .detail{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .name{
+    margin-right: 8px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+  }
+  
+  .age{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  
+  .city{
+    margin-top: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+  
+  .socials{
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    border-color: hsl(0, 0%, 59%);
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .fans{
+    color: hsl(229, 23%, 23%)
+    ;
+    font-weight: 700;
+  }
+  
+  .fan-description{
+    margin-top: 6px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+}
